@@ -1,5 +1,4 @@
 package Advanced.Generics;
-
 public class Generics<T,U> {
     T student1;
     U student2;
@@ -13,7 +12,6 @@ public class Generics<T,U> {
         System.out.println(student1.toString());
         System.out.println(student2.toString());
     }
-
     public static void main(String[] args) {
         Student st1=new Student("Godwin",22);
         Student st2=new Student("Liviya",20);
